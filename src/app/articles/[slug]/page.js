@@ -136,7 +136,7 @@ export default async function ArticleDetailPage({ params }) {
           <MascotGuide>この記事を一緒に見ていこう！</MascotGuide>
           {article.mainVideoUrl ? (
             <div className="video-source-card">
-              <span>本動画</span>
+              <span>{article.mainVideoLabel || "本動画"}</span>
               <a href={article.mainVideoUrl} target="_blank" rel="noreferrer">
                 {article.mainVideoUrl}
               </a>
@@ -152,12 +152,24 @@ export default async function ArticleDetailPage({ params }) {
                   参考URLを見る →
                 </a>
               ) : null}
-              <div className="thought-card">
-                <span>思考</span>
-                <MascotGuide side={index % 2 === 0 ? "left" : "right"} compact>
-                  <p>{section.thought || section.body}</p>
-                </MascotGuide>
-              </div>
+              {section.body && section.body !== section.thought ? (
+                <div className="section-body-note">
+                  {String(section.body)
+                    .split("\n")
+                    .filter(Boolean)
+                    .map((line, lineIndex) => (
+                      <p key={`${section.title}-${lineIndex}`}>{line}</p>
+                    ))}
+                </div>
+              ) : null}
+              {section.thought || section.body ? (
+                <div className="thought-card">
+                  <span>思考</span>
+                  <MascotGuide side={index % 2 === 0 ? "left" : "right"} compact>
+                    <p>{section.thought || section.body}</p>
+                  </MascotGuide>
+                </div>
+              ) : null}
             </section>
           ))}
           <footer className="detail-end">

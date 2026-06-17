@@ -1581,6 +1581,24 @@ main {
   color: var(--red);
 }
 
+.section-body-note {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 24px;
+  padding: 22px;
+  border: 1px solid rgba(16, 21, 28, 0.16);
+  background: var(--white);
+  box-shadow: 6px 6px 0 rgba(16, 21, 28, 0.08);
+}
+
+.section-body-note p {
+  margin: 0;
+  color: #2d3337;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.8;
+}
+
 .thought-card {
   display: grid;
   gap: 13px;

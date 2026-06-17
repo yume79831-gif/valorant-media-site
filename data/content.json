@@ -87,6 +87,40 @@
           "body": "マーシャルでコンタクトで攻めていくのやっぱり強いんだなぁ。"
         }
       ]
+    },
+    {
+      "slug": "no3",
+      "title": "プロ選手セッティング",
+      "category": "セッティング",
+      "map": "その他",
+      "excerpt": "",
+      "date": "2026.06.17",
+      "readTime": "4 MIN",
+      "image": "/images/masters-london-settings.jpg",
+      "mainVideoLabel": "ハイライト動画",
+      "mainVideoUrl": "https://www.youtube.com/watch?v=hRnk93k-Q4I",
+      "sections": [
+        {
+          "title": "FUT Esports s0pp選手",
+          "body": "キーボード:Razer Huntsman v3 PRO TKL White\nマウス:Razer Viper v4 pro 2000hz\nマウスパッド:Artisan FX Zero SOFT Black\n解像度:1920x1080\nセンシ:1600 dpi 0.1 or .175",
+          "thought": "2000hzにしてるのは理由があるのか調べたら、CPUに負担が～～みたいな事でhzを上げすぎるメリットがあまりないみたいです。"
+        },
+        {
+          "title": "XLG Esports happywei選手",
+          "body": "キーボード:Wooting60HE＋\nマウス:Logitech G ProX Superlight2 Magenta\nマウスパッド:ZOWIE H-SR-SE Blue2\n解像度:1920×1080\nセンシ:800DPI 0.712 1000hz",
+          "thought": "ZOWIEさんのマウスパッド昔から愛用させていただいてるし使いやすい。"
+        },
+        {
+          "title": "LEVIATAN Neon選手",
+          "body": "キーボード:Wooting60HE v2\nマウス:RazerViperV3Pro\nマウスパッド:Artisan FX Zero Soft XL\n解像度:1920×1080\nセンシ:800DPI 0.21 4000hz",
+          "thought": "プロプレイヤーのWootingの使用率凄いなぁ..."
+        },
+        {
+          "title": "EDward Gaming ZmjjKK選手",
+          "body": "キーボード:Wooting60HE＋\nマウス:VAXEE NP-01s V3 Wireless\nマウスパッド:Artisan NINJA FX Zero daidai\n解像度:1920×1080\nセンシ:1600DPI 0.2 4000hz",
+          "thought": "初期からvalorantシーンを牽引している選手今後も応援するぞー"
+        }
+      ]
     }
   ],
   "highlights": [],
