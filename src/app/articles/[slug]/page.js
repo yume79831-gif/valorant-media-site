@@ -90,7 +90,6 @@ export default async function ArticleDetailPage({ params }) {
             priority
             sizes="55vw"
           />
-          {article.imageFit === "contain" ? null : <span className="scan-line" />}
         </div>
       </header>
 
