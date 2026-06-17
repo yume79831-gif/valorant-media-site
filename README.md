@@ -48,3 +48,9 @@ npm run build
 Vercel CLIは使わず、GitHubリポジトリとVercelを連携して自動デプロイします。
 
 GitHubへpushしたあと、Vercelの管理画面からこのリポジトリをImportしてください。
+
+## Vercel Analytics
+
+`@vercel/analytics` を導入済みです。
+
+Vercelのプロジェクト画面で Web Analytics を有効化すると、アクセス数や参照元などを確認できます。
