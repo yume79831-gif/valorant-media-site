@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "slug": "ascent-tree-anti-eco-notes",
+      "title": "Valorant Masters London 2026 TH vs ViT",
+      "category": "試合メモ",
+      "map": "LOTUS",
+      "excerpt": "",
+      "date": "2026.06.16",
+      "readTime": "6 MIN",
+      "image": "/images/masters-london-th-vs-vit.png",
+      "imageFit": "contain",
+      "mainVideoUrl": "https://youtu.be/pMYvVg8VjWE?t=2657",
+      "sections": [
+        {
+          "title": "ピストルラウンドのツリー守り",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=2681",
+          "thought": "木の裏と張り付きだったりで、クロスしてるのよく見る！ライフルと違って木の抜きもそこまで強くないのがあるのか。",
+          "body": "木の裏と張り付きだったりで、クロスしてるのよく見る！ライフルと違って木の抜きもそこまで強くないのがあるのか。"
+        },
+        {
+          "title": "アンチエコのスナイパーコンタクト",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=2871",
+          "thought": "スタックをケアしつつ武器差をいかせるのかな？",
+          "body": "スタックをケアしつつ武器差をいかせるのかな？"
+        },
+        {
+          "title": "シーズ＋グレの奥目",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=3672",
+          "thought": "ネオンカーテンで斜線切って、奥にシーズとグレ入れる事でワンテンポずれて、後続が丁度出てくるタイミングなのめっちゃいい！",
+          "body": "ネオンカーテンで斜線切って、奥にシーズとグレ入れる事でワンテンポずれて、後続が丁度出てくるタイミングなのめっちゃいい！"
+        },
+        {
+          "title": "vyse詰め待ち",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=3796",
+          "thought": "フラッシュを箱の横につける事で、敵が詰めてくる→ワンウェイフラッシュ→撃ち合うという流れで凄い有利に撃ち合えてる！",
+          "body": "フラッシュを箱の横につける事で、敵が詰めてくる→ワンウェイフラッシュ→撃ち合うという流れで凄い有利に撃ち合えてる！"
+        },
+        {
+          "title": "アンチエコ2",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=3992",
+          "thought": "Aサイトスタックケアで階段抜けを誰か見ているかチェックしてるの偉すぎる！階段抜け見てない=Aに固まってる可能性も考えられるのか。",
+          "body": "Aサイトスタックケアで階段抜けを誰か見ているかチェックしてるの偉すぎる！階段抜け見てない=Aに固まってる可能性も考えられるのか。"
+        },
+        {
+          "title": "初動の置きをアングルを広げてオペピーク",
+          "referenceUrl": "https://youtu.be/pMYvVg8VjWE?t=4219",
+          "thought": "この前のラウンドで、2ラウンドくらい初動攻めオペでCのvyseがジャンピしたところ倒されていて、対策としてスライディングで置きを倒しに行くプランにしたのすご！",
+          "body": "この前のラウンドで、2ラウンドくらい初動攻めオペでCのvyseがジャンピしたところ倒されていて、対策としてスライディングで置きを倒しに行くプランにしたのすご！"
+        }
+      ]
+    }
+  ],
+  "highlights": [],
+  "strategies": []
+}

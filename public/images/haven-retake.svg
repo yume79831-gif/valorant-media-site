@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Haven C retake tactical screenshot placeholder</title>
+  <desc id="desc">A stylized tactical board showing two routes into Haven C site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182522"/>
+      <stop offset="1" stop-color="#2a3934"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6 0 12z" fill="#23c29d"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g opacity=".1" stroke="#fff">
+    <path d="M0 90h1280M0 180h1280M0 270h1280M0 360h1280M0 450h1280M0 540h1280M0 630h1280"/>
+    <path d="M160 0v720M320 0v720M480 0v720M640 0v720M800 0v720M960 0v720M1120 0v720"/>
+  </g>
+  <g filter="url(#shadow)" transform="translate(180 100)">
+    <path d="M86 72h213l68 66h159l48-44h215l69 98-49 118 57 95-73 134H591l-57-62H354l-53 62H91L38 430l51-112-50-112z" fill="#d6ddd6" stroke="#f5f7f2" stroke-width="12"/>
+    <path d="M574 94h215l69 98-49 118H586l-73-104z" fill="#a9b9b0"/>
+    <path d="M591 310h218l57 95-73 134H591l-57-62z" fill="#8fa79b"/>
+    <path d="M354 138h172l60 68v104H350l-62-83z" fill="#7e9389"/>
+    <path d="M301 318h290l-57 159H354l-53 62H91L38 430l51-112z" fill="#acb8b0"/>
+    <g fill="#31413a" font-family="Arial, sans-serif" font-size="31" font-weight="700">
+      <text x="150" y="195">A</text>
+      <text x="435" y="235">B</text>
+      <text x="690" y="435">C</text>
+      <text x="112" y="420">CT</text>
+    </g>
+  </g>
+  <path d="M380 530C492 493 590 448 718 419" fill="none" stroke="#23c29d" stroke-width="18" stroke-linecap="round" stroke-dasharray="12 22" marker-end="url(#arrow)"/>
+  <path d="M934 278C915 338 879 384 814 420" fill="none" stroke="#23c29d" stroke-width="18" stroke-linecap="round" stroke-dasharray="12 22" marker-end="url(#arrow)"/>
+  <g fill="#23c29d" stroke="#fff" stroke-width="7">
+    <circle cx="378" cy="530" r="22"/>
+    <circle cx="936" cy="278" r="22"/>
+  </g>
+  <circle cx="782" cy="432" r="55" fill="none" stroke="#ffdd6b" stroke-width="7" stroke-dasharray="8 10"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="38" y="35" width="327" height="76" fill="#101815" opacity=".92"/>
+    <text x="66" y="69" fill="#23c29d" font-size="18" font-weight="700" letter-spacing="3">ROUND NOTE / HAVEN</text>
+    <text x="66" y="94" fill="#fff" font-size="15">C SITE  /  TWO-WAY RETAKE</text>
+    <rect x="987" y="35" width="255" height="76" fill="#101815" opacity=".92"/>
+    <text x="1015" y="69" fill="#fff" font-size="16" font-weight="700">TACTICAL VIEW</text>
+    <text x="1015" y="94" fill="#9eaaa3" font-size="13">SCREENSHOT PLACEHOLDER</text>
+  </g>
+  <path d="M0 682h1280" stroke="#23c29d" stroke-width="7"/>
+</svg>
