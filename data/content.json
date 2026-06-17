@@ -97,13 +97,16 @@
       "date": "2026.06.17",
       "readTime": "4 MIN",
       "image": "/images/masters-london-settings.jpg",
-      "mainVideoLabel": "ハイライト動画",
-      "mainVideoUrl": "https://www.youtube.com/watch?v=hRnk93k-Q4I",
       "sections": [
         {
           "title": "FUT Esports s0pp選手",
+          "videoLabel": "ハイライト動画",
+          "videoUrl": "https://www.youtube.com/watch?v=hRnk93k-Q4I",
           "body": "キーボード:Razer Huntsman v3 PRO TKL White\nマウス:Razer Viper v4 pro 2000hz\nマウスパッド:Artisan FX Zero SOFT Black\n解像度:1920x1080\nセンシ:1600 dpi 0.1 or .175",
-          "thought": "2000hzにしてるのは理由があるのか調べたら、CPUに負担が～～みたいな事でhzを上げすぎるメリットがあまりないみたいです。"
+          "thoughts": [
+            "2000hzにしてるのは理由があるのか調べたら、CPUに負担が～～みたいな事でhzを上げすぎるメリットがあまりないみたいです。",
+            "ハイライトを見てファンになってしまいました..."
+          ]
         },
         {
           "title": "XLG Esports happywei選手",

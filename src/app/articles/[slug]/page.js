@@ -32,6 +32,19 @@ const affiliateAds = [
   }
 ];
 
+function getThoughtItems(section) {
+  if (Array.isArray(section.thoughts)) {
+    return section.thoughts.filter(Boolean);
+  }
+  if (section.thought) {
+    return [section.thought];
+  }
+  if (section.body) {
+    return [section.body];
+  }
+  return [];
+}
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -152,6 +165,14 @@ export default async function ArticleDetailPage({ params }) {
                   参考URLを見る →
                 </a>
               ) : null}
+              {section.videoUrl ? (
+                <div className="video-source-card">
+                  <span>{section.videoLabel || "動画"}</span>
+                  <a href={section.videoUrl} target="_blank" rel="noreferrer">
+                    {section.videoUrl}
+                  </a>
+                </div>
+              ) : null}
               {section.body && section.body !== section.thought ? (
                 <div className="section-body-note">
                   {String(section.body)
@@ -162,12 +183,18 @@ export default async function ArticleDetailPage({ params }) {
                     ))}
                 </div>
               ) : null}
-              {section.thought || section.body ? (
+              {getThoughtItems(section).length > 0 ? (
                 <div className="thought-card">
                   <span>思考</span>
-                  <MascotGuide side={index % 2 === 0 ? "left" : "right"} compact>
-                    <p>{section.thought || section.body}</p>
-                  </MascotGuide>
+                  {getThoughtItems(section).map((thought, thoughtIndex) => (
+                    <MascotGuide
+                      side={(index + thoughtIndex) % 2 === 0 ? "left" : "right"}
+                      compact
+                      key={`${section.title}-thought-${thoughtIndex}`}
+                    >
+                      <p>{thought}</p>
+                    </MascotGuide>
+                  ))}
                 </div>
               ) : null}
             </section>
