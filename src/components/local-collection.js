@@ -1,14 +1,30 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArticleCard } from "@/components/article-card";
 import { HighlightCard } from "@/components/highlight-card";
 import { StrategyCard } from "@/components/strategy-card";
 
 const ITEMS_PER_PAGE = 6;
 
+function getArticleNumber(slug = "") {
+  const match = String(slug).match(/^no(\d+)$/i);
+  return match ? Number(match[1]) : 0;
+}
+
 export function LocalCollection({ type, fallback = [], limit, className = "" }) {
-  const items = Array.isArray(fallback) ? fallback : [];
+  const items = useMemo(() => {
+    const collection = Array.isArray(fallback) ? fallback : [];
+
+    if (type !== "articles") {
+      return collection;
+    }
+
+    return [...collection].sort((a, b) => {
+      const dateOrder = String(b.date || "").localeCompare(String(a.date || ""));
+      return dateOrder || getArticleNumber(b.slug) - getArticleNumber(a.slug);
+    });
+  }, [fallback, type]);
   const [page, setPage] = useState(1);
 
   useEffect(() => {
