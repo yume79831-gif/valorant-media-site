@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function ArticleCard({ article, index = 0, large = false }) {
+  const slugNumber = String(article.slug || "").match(/^no(\d+)$/i)?.[1];
+  const articleNumber = slugNumber || String(index + 1);
+
   return (
     <Link className={`article-card ${large ? "is-large" : ""}`} href={`/articles/${article.slug}`}>
       <div className="media-frame">
@@ -12,7 +15,7 @@ export function ArticleCard({ article, index = 0, large = false }) {
           fill
           sizes={large ? "70vw" : "40vw"}
         />
-        <span className="card-index">{String(index + 1).padStart(2, "0")}</span>
+        <span className="card-index">{articleNumber.padStart(2, "0")}</span>
         <span className="map-chip">{article.map}</span>
       </div>
       <div className="article-card-content">
