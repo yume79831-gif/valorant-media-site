@@ -281,6 +281,44 @@
           "body": "スパイクをフェイクすることなくそのまま解除する事。"
         }
       ]
+    },
+    {
+      "slug": "no7",
+      "title": "Valorant Masters London 2026 EDwardGaming vs PaperRex",
+      "category": "試合メモ",
+      "map": "BREEZE",
+      "excerpt": "",
+      "date": "2026.06.20",
+      "readTime": "4 MIN",
+      "image": "/images/masters-london-edg-vs-prx.png",
+      "imageFit": "contain",
+      "mainVideoUrl": "https://www.youtube.com/watch?t=82&v=-nfe8xeT-ao&feature=youtu.be",
+      "sections": [
+        {
+          "title": "真ん中3人配置",
+          "referenceUrl": "https://youtu.be/-nfe8xeT-ao?t=93",
+          "thought": "pistolラウンドでよく見る！ファストやシャーペンしやすいよね。",
+          "body": "pistolラウンドでよく見る！ファストやシャーペンしやすいよね。"
+        },
+        {
+          "title": "フラッシュリコン＋sovaウルトでラッシュ",
+          "referenceUrl": "https://youtu.be/-nfe8xeT-ao?t=1002",
+          "thought": "フラッシュリコンでリコン壊しにくくしたり、ピークしてくる敵に対してめっちゃ良さそう！",
+          "body": "フラッシュリコンでリコン壊しにくくしたり、ピークしてくる敵に対してめっちゃ良さそう！"
+        },
+        {
+          "title": "omenが挟みの形",
+          "referenceUrl": "https://youtu.be/-nfe8xeT-ao?t=1742",
+          "thought": "敵視点めっちゃ気付きにくそうでやってみたい！",
+          "body": "敵視点めっちゃ気付きにくそうでやってみたい！"
+        },
+        {
+          "title": "viperウルトのアンチ",
+          "referenceUrl": "https://youtu.be/-nfe8xeT-ao?t=2440",
+          "thought": "viperウルトに対してサイトに飛ぶことによって挟み込める形作ってる！ウルト中をどうやって突破するかも色んな工夫していて最高！",
+          "body": "viperウルトに対してサイトに飛ぶことによって挟み込める形作ってる！ウルト中をどうやって突破するかも色んな工夫していて最高！"
+        }
+      ]
     }
   ],
   "highlights": [],
