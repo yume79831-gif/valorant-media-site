@@ -419,6 +419,65 @@
           "body": "EDGはA攻めの際にスロープのエリアをとても大事にしているなぁ。"
         }
       ]
+    },
+    {
+      "slug": "no10",
+      "title": "新マップ登場!SUMMIT(サミット)",
+      "category": "新マップ",
+      "map": "その他",
+      "excerpt": "セージがテーマになっているんだなぁ",
+      "date": "2026.06.22",
+      "readTime": "6 MIN",
+      "image": "/images/summit-hero.png",
+      "mainVideoUrl": "https://youtu.be/3kMr6JCbppI",
+      "sections": [
+        {
+          "title": "新マップのあらゆる場所",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=00h33m48s",
+          "thought": "水色と中国っぽい見ための建物すごくかわいい",
+          "body": "水色と中国っぽい見ための建物すごくかわいい"
+        },
+        {
+          "title": "エキシビジョンマッチで新マッププレイ！",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=00h41m15s",
+          "thought": "日本からもBijuさんが参加していて見ごたえあった！",
+          "body": "日本からもBijuさんが参加していて見ごたえあった！"
+        },
+        {
+          "title": "ミニマップだとこんな感じ",
+          "image": "/images/summit-minimap.png",
+          "imageAlt": "SUMMITのミニマップ",
+          "imageCaption": "SUMMITのミニマップ",
+          "imageWidth": 420,
+          "imageHeight": 363,
+          "thought": "ちょっとカロード感あるなぁ",
+          "body": "ちょっとカロード感あるなぁ"
+        },
+        {
+          "title": "スイッチを撃つと扉が閉まるギミック",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=00h43m05s",
+          "thought": "もう二度と開かないのか！？",
+          "body": "もう二度と開かないのか！？"
+        },
+        {
+          "title": "Aリテイクのロックダウン強すぎない！？",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=00h56m49s",
+          "thought": "ポジションがAメインしかなくなるのきつそうｗ",
+          "body": "ポジションがAメインしかなくなるのきつそうｗ"
+        },
+        {
+          "title": "ZEN MOMENT",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=00h59m46s",
+          "thought": "なんかチルいBGMかかって皆さん目をつぶっております。",
+          "body": "なんかチルいBGMかかって皆さん目をつぶっております。"
+        },
+        {
+          "title": "ロープで上るしかない。。。",
+          "referenceUrl": "https://www.twitch.tv/videos/2801941537?t=01h22m48s",
+          "thought": "sageの壁ありきだけどこのポジション凄い強そうｗ",
+          "body": "sageの壁ありきだけどこのポジション凄い強そうｗ"
+        }
+      ]
     }
   ],
   "highlights": [],

@@ -172,6 +172,18 @@ export default async function ArticleDetailPage({ params }) {
                   </a>
                 </div>
               ) : null}
+              {section.image ? (
+                <figure className="section-image-card">
+                  <Image
+                    src={section.image}
+                    alt={section.imageAlt || section.title}
+                    width={section.imageWidth || 900}
+                    height={section.imageHeight || 520}
+                    sizes="(max-width: 900px) 100vw, 780px"
+                  />
+                  {section.imageCaption ? <figcaption>{section.imageCaption}</figcaption> : null}
+                </figure>
+              ) : null}
               {section.body && section.body !== section.thought ? (
                 <div className="section-body-note">
                   {String(section.body)
