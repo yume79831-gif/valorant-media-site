@@ -172,6 +172,14 @@ export default async function ArticleDetailPage({ params }) {
                   </a>
                 </div>
               ) : null}
+              {section.videoSrc ? (
+                <figure className="section-video-card">
+                  <video controls preload="metadata" playsInline src={section.videoSrc}>
+                    <a href={section.videoSrc}>動画を開く</a>
+                  </video>
+                  {section.videoCaption ? <figcaption>{section.videoCaption}</figcaption> : null}
+                </figure>
+              ) : null}
               {section.image ? (
                 <figure className="section-image-card">
                   <Image

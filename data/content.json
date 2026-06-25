@@ -605,6 +605,46 @@
           "body": "超ベテランMisaya選手率いるQT DIG vs RBHGなどから大会を重ねてきているIGZIST見どころがたくさんありそうです！"
         }
       ]
+    },
+    {
+      "slug": "no14",
+      "title": "サミット ソーヴァ定点",
+      "category": "定点メモ",
+      "map": "SUMMIT",
+      "excerpt": "サミットで使えそうなソーヴァのショックダーツとリコンをメモ。",
+      "date": "2026.06.26",
+      "readTime": "4 MIN",
+      "image": "/images/summit-sova-lineups-hero.avif",
+      "sections": [
+        {
+          "title": "トラップ用ショックダーツ",
+          "videoSrc": "/videos/summit-sova-shock-trap.mp4",
+          "videoCaption": "トラップ用ショックダーツ",
+          "thought": "ワイヤー強そうなのでソーヴァ出てくるのかなぁ",
+          "body": "ワイヤー強そうなのでソーヴァ出てくるのかなぁ"
+        },
+        {
+          "title": "Bリコン",
+          "videoSrc": "/videos/summit-sova-b-recon.mp4",
+          "videoCaption": "Bリコン",
+          "thought": "おしゃれ度は高い",
+          "body": "おしゃれ度は高い"
+        },
+        {
+          "title": "解除遅延用ショックダーツ",
+          "videoSrc": "/videos/summit-sova-defuse-shock.mp4",
+          "videoCaption": "解除遅延用ショックダーツ",
+          "thought": "綺麗に入る気持ちがいい",
+          "body": "綺麗に入る気持ちがいい"
+        },
+        {
+          "title": "Aエリアコントロール少し奥目の索敵リコン",
+          "videoSrc": "/videos/summit-sova-a-recon.mp4",
+          "videoCaption": "Aエリアコントロール少し奥目の索敵リコン",
+          "thought": "手前はデュエのスキルとかでとりたいなぁ",
+          "body": "手前はデュエのスキルとかでとりたいなぁ"
+        }
+      ]
     }
   ],
   "highlights": [],

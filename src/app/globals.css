@@ -1621,6 +1621,28 @@ main {
   font-weight: 800;
 }
 
+.section-video-card {
+  margin: 0 0 24px;
+  padding: 14px;
+  border: 1px solid var(--black);
+  background: var(--white);
+  box-shadow: 6px 6px 0 rgba(16, 21, 28, 0.1);
+}
+
+.section-video-card video {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(16, 21, 28, 0.12);
+  background: var(--black);
+}
+
+.section-video-card figcaption {
+  margin-top: 10px;
+  color: var(--gray-700);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .thought-card {
   display: grid;
   gap: 13px;
