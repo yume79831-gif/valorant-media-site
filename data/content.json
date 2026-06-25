@@ -563,6 +563,48 @@
           "body": "メインはカーテンで切って、サイトのトレードアングルをスモークで切るのいいなぁ"
         }
       ]
+    },
+    {
+      "slug": "no13",
+      "title": "現時点でのVCJポイント",
+      "category": "大会情報",
+      "map": "その他",
+      "excerpt": "VCJの現時点ランキングと今後の注目試合をメモ。",
+      "date": "2026.06.26",
+      "readTime": "4 MIN",
+      "image": "/images/vcj-points-hero.png",
+      "sections": [
+        {
+          "title": "現時点のランキング",
+          "image": "/images/vcj-points-ranking.png",
+          "imageAlt": "現時点のVCJポイントランキング",
+          "imageCaption": "現時点のVCJポイントランキング",
+          "imageWidth": 796,
+          "imageHeight": 510,
+          "thought": "Season Finalsに進む6チームが恐らく決定しています。REJECT今の所無敗なのか強すぎる。。。",
+          "body": "Season Finalsに進む6チームが恐らく決定しています。REJECT今の所無敗なのか強すぎる。。。"
+        },
+        {
+          "title": "6/26 REJECT vs IGZIST",
+          "thought": "IGZISTは絶好調なREJECTを止める事ができるのか期待です。",
+          "body": "IGZISTは絶好調なREJECTを止める事ができるのか期待です。"
+        },
+        {
+          "title": "6/26 RIDDLE ORDER vs FENNEL",
+          "thought": "日本代表チームにも選ばれたAace選手所属のFENNELとJoXJo選手率いる統率の取れたRIDDLEとても楽しみです！",
+          "body": "日本代表チームにも選ばれたAace選手所属のFENNELとJoXJo選手率いる統率の取れたRIDDLEとても楽しみです！"
+        },
+        {
+          "title": "6/27 CREST GAMING Zst vs AGELITE",
+          "thought": "前回王者のCGZ vs 創設してから間もないが爪痕を残してきているAGELITEがどのような試合をしていくのか楽しみです。",
+          "body": "前回王者のCGZ vs 創設してから間もないが爪痕を残してきているAGELITEがどのような試合をしていくのか楽しみです。"
+        },
+        {
+          "title": "6/27 QT DIG vs IGZIST",
+          "thought": "超ベテランMisaya選手率いるQT DIG vs RBHGなどから大会を重ねてきているIGZIST見どころがたくさんありそうです！",
+          "body": "超ベテランMisaya選手率いるQT DIG vs RBHGなどから大会を重ねてきているIGZIST見どころがたくさんありそうです！"
+        }
+      ]
     }
   ],
   "highlights": [],
